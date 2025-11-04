@@ -66,16 +66,17 @@ h1 {
   background-color: oldlace;
 }
 
-.resources {
-    border: 1px solid #000000;
-    border-radius: 8px;
-    text-align: center;
-}
-
 h1 {
     background-color: rgb(206, 179, 160);
     padding: 1rem;
     border-radius: 9px;
+}
+
+h2 {
+    background-color: rgb(206, 179, 160);
+    padding: 1rem;
+    border-radius: 9px;
+    text-align: center;;
 }
 
 .profile-picture {
