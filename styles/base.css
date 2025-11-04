@@ -52,10 +52,6 @@ main {
     height: auto;
 }
 
-h1 {
-    text-align: center;
-}
-
 .card {
     border: 1px solid #000000;
     border-radius: 8px;
@@ -73,13 +69,14 @@ h1 {
     background-color: rgb(206, 179, 160);
     padding: 1rem;
     border-radius: 9px;
+    text-align: center;
 }
 
 h2 {
     background-color: rgb(206, 179, 160);
     padding: 1rem;
     border-radius: 9px;
-    text-align: center;;
+    text-align: center;
 }
 
 .profile-picture {
