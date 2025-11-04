@@ -26,7 +26,7 @@ span {
 nav {
     background-color: rgb(206, 179, 160);
     margin: auto;
-    max-width: auto;
+    width: auto;
 }
 
 nav ul {
