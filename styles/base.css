@@ -1,13 +1,14 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     color: rgb(35, 18, 5);
 }
-body { 
+
+body {
     font-family: "Raleway", sans-serif;
 }
 
@@ -16,11 +17,11 @@ span {
 }
 
 .top {
-    background-color:oldlace;
-	padding: 1.2rem;
-	border: 1px solid rgba(105, 64, 32, 0.1);
-	font-size: 2rem;    
-	text-align: center;
+    background-color: oldlace;
+    padding: 1.2rem;
+    border: 1px solid rgba(105, 64, 32, 0.1);
+    font-size: 2rem;
+    text-align: center;
 }
 
 nav {
@@ -35,7 +36,7 @@ nav ul {
 
 nav a {
     display: block;
-    color:rgb(35, 18, 5);
+    color: rgb(35, 18, 5);
     text-decoration: none;
     font-size: 1.4rem;
     padding: 0.7rem;
@@ -43,8 +44,8 @@ nav a {
 }
 
 nav a:hover {
-    color:oldlace;
-    background-color:rgba(105, 64, 32, 0.1);
+    color: oldlace;
+    background-color: rgba(105, 64, 32, 0.1);
 }
 
 main {
@@ -58,11 +59,11 @@ main {
 }
 
 .main-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 1.5rem;
-  padding: 1.5rem;
-  background-color: oldlace;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: oldlace;
 }
 
 h1 {
@@ -80,10 +81,10 @@ h2 {
 }
 
 .profile-picture {
-  float: right;
-  padding: 1rem;
-  height: 13rem;
-  margin-top: 13px;
+    float: right;
+    padding: 1rem;
+    height: 13rem;
+    margin-top: 13px;
 }
 
 footer {
@@ -108,7 +109,9 @@ p {
     padding: 2rem;
 }
 
-.hyperlinks, li, a {
+.hyperlinks,
+li,
+a {
     padding: 10px;
     font-size: 1.1rem;
     margin-top: 10px;
@@ -128,23 +131,23 @@ figcaption {
     gap: 2rem;
 }
 
-.country-info figure{
+.country-info figure {
     margin: 0;
     display: block;
 }
 
 .country-info .flag {
-  width: 250px;        
-  height: auto;
-  display: block;
-  margin-left: 15px
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: 15px
 }
 
 .country-info p {
-  flex: 1; 
-  margin-bottom: 10px;           
-  font-size: 1.1rem;
-  line-height: 1.5;
+    flex: 1;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 /* larger/wider views **************************/
@@ -153,7 +156,7 @@ figcaption {
         display: flex;
     }
 
-nav ul li {
-    flex: 1 0 auto;
-}
+    nav ul li {
+        flex: 1 0 auto;
+    }
 }

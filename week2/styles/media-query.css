@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, main, footer {
+    max-width: 640px;
+    margin: 1rem auto;
+}
+
+header {
+    background-color: lavender;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1;
+    background-color:lavender;
+    gap: 1rem;
+}
+
+section {
+    gap: 1rem;
+    padding: 20px;
+    background-color: white;
+    margin: 14px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: lavender;
+}
+
+.name {
+    margin: 10px;
+    padding: 5px;
+}
+
+
