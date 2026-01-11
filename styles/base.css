@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: rgb(35, 18, 5);
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    min-height: 100vh;
+    margin:0px;
+}
+
+.top {
+    background-color: oldlace;
+    padding: 1.2rem;
+    border: 1px solid rgba(105, 64, 32, 0.1);
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(206, 179, 160);
+    margin: auto;
+    width: auto;
+}
+
+.menu a{
+    display: block;
+    color: rgb(35, 18, 5);
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu li{
+    margin-top: 0px;
+}
+
+nav a:hover {
+    color: oldlace;
+    background-color: rgba(105, 64, 32, 0.1);
+}
+
+.card {
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: oldlace;
+}
+
+h1 {
+    background-color: rgb(206, 179, 160);
+    padding: 1rem;
+    border-radius: 9px;
+    text-align: center;
+    color: rgb(35, 18, 5);
+}
+
+.profile-picture {
+    float: right;
+    padding: 1rem;
+    height: 13rem;
+    margin-top: 13px;
+}
+
+footer {
+    background-color: rgb(206, 179, 160);
+    padding: 4px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: 1px solid #000000;
+    color: rgb(150, 116, 92)
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.hyperlinks,
+li,
+a {
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(35, 18, 5);
+}
+
+.hyperlinks a:hover {
+    color: rgba(102, 83, 69, 0.877);
+    background-color: rgb(242, 228, 204);
+    border-radius: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.country-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.country-info figure {
+    margin: 0;
+    display: block;
+}
+
+.country-info .flag {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: 15px
+}
+
+.country-info p {
+    flex: 1;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* larger/wider views **************************/
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 0 auto;
+    }
+}
