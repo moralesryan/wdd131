@@ -6,14 +6,14 @@
 
 header {
     color: rgb(35, 18, 5);
-}
+} 
 
 body {
     font-family: "Raleway", sans-serif;
     min-height: 100vh;
     margin: 0px;
 }
-
+ 
 .top {
     background-color: oldlace;
     padding: 1.2rem;
