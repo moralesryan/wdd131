@@ -79,15 +79,12 @@ footer {
     padding: 4px;
 }
 
-h2 {
+.card h2 {
+    background-color: rgb(206, 179, 160);
+    padding: 1rem;
+    border-radius: 9px;
     text-align: center;
-    font-size: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-bottom: 1px solid #000000;
-    color: rgb(150, 116, 92)
+    color: rgb(35, 18, 5);
 }
 
 p {
@@ -119,30 +116,15 @@ figcaption {
     margin-bottom: 20px;
 }
 
-.country-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
+.country-info, h2 {
+    border-bottom-color: black; 
 }
 
-.country-info figure {
-    margin: 0;
-    display: block;
-}
-
-.country-info .flag {
-    width: 250px;
-    height: auto;
-    display: block;
-    margin-left: 15px
-}
-
-.country-info p {
-    flex: 1;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    line-height: 1.5;
+.flag {
+    float: left;
+    padding: 2rem;
+    height: 13rem;
+    margin-top: 13px;
 }
 
 /* larger/wider views **************************/
