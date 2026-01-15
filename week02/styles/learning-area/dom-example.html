@@ -11,9 +11,16 @@
         <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
       </section>
       <script>
+        //Basic DOM manipulation//
         const link = document.querySelector("a");
         link.textContent = "Mozilla Developer Network";
         link.href = "https://developer.mozilla.org";
+        //Creating and placing new codes//
+        const sect = document.querySelector("section");
+        const para = document.createElement("p");
+        para.textContent = "We hope you enjoyed the ride.";
+        
+
       </script>
   </body>
 </html>
