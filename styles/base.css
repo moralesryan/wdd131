@@ -8,6 +8,10 @@ header {
     color: rgb(35, 18, 5);
 } 
 
+main {
+    text-align: center;
+}
+
 body {
     font-family: "Raleway", sans-serif;
     min-height: 100vh;
@@ -105,7 +109,7 @@ a {
 }
 
 .hyperlinks a:hover {
-    color: rgba(102, 83, 69, 0.877);
+    color: rgb(102, 83, 69, 0.877);
     background-color: rgb(242, 228, 204);
     border-radius: 10px;
 }
