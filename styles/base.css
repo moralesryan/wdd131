@@ -109,7 +109,7 @@ a {
 }
 
 .hyperlinks a:hover {
-    color: rgb(102, 83, 69, 0.877);
+    color: rgba(102, 83, 69, 0.877);
     background-color: rgb(242, 228, 204);
     border-radius: 10px;
 }
