@@ -10,3 +10,9 @@ list.textContent = input.value;
 deleteButton.textContent = '❌';
 titleHolder.append(deleteButton);
 list.append(titleHolder);
+//Event for the Add chapter button//
+button.addEventListener("click", function() {
+    if (input.value.trim() !== '') {
+        console.log("thanks") //comeback to this//
+    }
+});
