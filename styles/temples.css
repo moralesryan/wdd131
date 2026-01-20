@@ -4,11 +4,35 @@
     box-sizing: border-box;
 }
 
+/*
+nav section
+*/
 nav {
-    display: flex;
+    margin: 0 auto;
+    background-color:lightslategrey;
 }
 
-.temple {
-    display: flex;
-    
+nav a {
+    display:block;
+    text-align:center;
+    padding: 1rem;
+    text-decoration: none;
+    color:#fff
+}
+
+nav a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(116, 143, 167);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/*larger view */
+@media (min-width: 680px) {
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
