@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 /*
 nav section
 */
@@ -33,11 +32,54 @@ nav ul {
 main section
 */
 main {
-    max-width: 640px;
+    max-width: 800px;
     margin: 0 auto;
 }
+/*
+h1
+*/
+h1 {
+    text-align: center;
+}
 
+/*
+figures/imgs
+*/
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 25px;
+	place-items: center;
+    
+}
 
+img {
+    width: 270px;
+    height: auto;
+    padding: 10px;
+}
+
+/*
+figcaption
+*/
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+footer
+*/
+footer{
+    background-color:lightslategrey;
+    padding: 10px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: large;
+}
 
 /*larger view */
 @media (min-width: 680px) {
@@ -45,4 +87,4 @@ main {
         display: flex;
         justify-content: space-evenly;
     }
-}
+}   
