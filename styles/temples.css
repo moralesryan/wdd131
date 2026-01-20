@@ -79,6 +79,32 @@ footer p {
     font-size: large;
 }
 
+/*
+hamburger menu
+*/
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color: #eee;
+	color: #000;
+}
+#menu::before {
+	content: "≡";
+}
+#menu.show::before{
+    content: "x";
+}
+.navigation li {
+    display: none;
+    }
+
+.navigation.show li {
+    display: block;
+}
+
 /*larger view */
 @media (min-width: 680px) {
     nav ul{
@@ -86,4 +112,11 @@ footer p {
         justify-content: space-evenly;
         align-items: center;
     }
+    #menu {
+        display:none;
+    }
+    .navigation li {
+        display:block;
+    }
+    
 }   
