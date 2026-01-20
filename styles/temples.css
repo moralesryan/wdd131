@@ -9,10 +9,11 @@ nav section
 nav {
     margin: 0 auto;
     background-color:lightslategrey;
+    
 }
 
 nav a {
-    display:block;
+    display: flex;
     text-align:center;
     padding: 1rem;
     text-decoration: none;
