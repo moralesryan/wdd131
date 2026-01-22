@@ -8,7 +8,7 @@ nav section
 */
 nav {
     margin: 0 auto;
-    background-color:lightslategrey;
+    background-color:rgb(35, 53, 67);
 }
 
 nav a {
@@ -19,7 +19,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: rgb(23, 64, 99);
+    background-color: rgb(67, 104, 136);
 }
 
 nav ul {
@@ -69,7 +69,7 @@ figcaption {
 footer
 */
 footer{
-    background-color:lightslategrey;
+    background-color:rgb(35, 53, 67);
     padding: 10px;
 }
 
