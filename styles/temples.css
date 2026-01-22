@@ -8,7 +8,7 @@ nav section
 */
 nav {
     margin: 0 auto;
-    background-color:rgb(35, 53, 67);
+    background-color:rgb(115, 148, 172);
 }
 
 nav a {
@@ -19,7 +19,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: rgb(67, 104, 136);
+    background-color: rgb(88, 104, 118);
 }
 
 nav ul {
