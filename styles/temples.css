@@ -9,6 +9,7 @@ nav section
 nav {
     margin: 0 auto;
     background-color:rgb(66, 83, 95);
+    color:#fff;
 }
 
 nav a {
