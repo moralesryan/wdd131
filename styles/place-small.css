@@ -44,10 +44,15 @@ Main
     left: 2rem;
 }
 
+.card.data h2::after{
+    content:"📊";
+}
+
 .card.weather{
     bottom:2rem;
     right: 2rem;
 }
+
 .card h2 {
   position: absolute;
   top: -1rem;
