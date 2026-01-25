@@ -8,7 +8,7 @@
 Header
 */
 header {
-    background-color: red;
+    background-color:rgb(97, 71, 52);
     padding:1.5rem;
 }
 
@@ -22,3 +22,54 @@ h1 {
 Main
 */
 
+.hero {
+    position: relative;
+}
+
+.card {
+    position: absolute; 
+    background-color:rgb(255, 255, 255);
+    padding: 1.3rem;
+    border-radius: 5px;
+    opacity: 80%;
+}
+
+.card.data {
+    top: 10rem;
+    left: 2rem;
+}
+
+.card.weather{
+    bottom:2rem;
+    right: 2rem;
+}
+.card h2 {
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  background-color: #0b331d; /* green */
+  color: white;
+
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+
+  font-size: 1.2rem;
+}
+
+p {
+    margin: 5px;
+}
+
+/*
+footer
+*/
+footer {
+    background-color:rgb(97, 71, 52);
+    padding: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
