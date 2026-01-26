@@ -53,6 +53,11 @@ Main
     right: 2rem;
 }
 
+picture img{
+    width: 100%;
+    height: auto;
+}
+
 .card h2 {
   position: absolute;
   top: -1rem;
