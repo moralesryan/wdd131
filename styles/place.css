@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-    color:#fff;
+    color:var(--card-background);
     text-align: center;
     font-size: 2.5rem;
 }
@@ -63,7 +63,7 @@ picture img{
   top: -1rem;
   left: 1rem;
   background-color:var(--primary-green);
-  color: white;
+  color: var(--card-background);
 
   padding: 0.5rem 1.2rem;
   border-radius: 4px;
@@ -92,7 +92,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: #fff;
+    color: var(--card-background);
     font-size: 1.5rem;
 }
 
