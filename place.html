@@ -9,7 +9,7 @@
     <meta name="author" content="Ryan Morales - WDD131 Week 3 Project">
 <!--Let's link it to JS and CSS-->
     <script src="scripts/place.js" defer></script>
-    <link rel="stylesheet" href="styles/place-small.css">
+    <link rel="stylesheet" href="styles/place.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,11 @@
     </header>
     <main>
         <div class="hero"></div>
+<!--Hero image = background of the main section-->
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/monkey-hero.webp" width="auto" height="100%">
+                <img src="images/racoon-hero.webp" alt="Costa Rica landscape of a beautiful waterful" width="100%" height="auto">
+            </picture>
 <!--Data section-->
             <section class="card data">
                 <h2>
@@ -43,11 +48,6 @@
                 <p><strong>Wind:</strong> 10km/h</p>
                 <p><strong>Wind Chill:</strong> 9.1°C</p>
             </section>
-<!--Hero image = background of the main section-->
-            <picture>
-                <source media="(max-width: 1000px)" srcset="" width="" height="">
-                <img src="images/racoon-hero.webp" alt="Costa Rica landscape of a beautiful waterful" width="100%" height="auto">
-            </picture>
         </div>
     </main>
 <footer>
@@ -58,4 +58,4 @@
     </p>
 </footer>
 </body>
-</html>
+</html> 
