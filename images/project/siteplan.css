@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+}
+footer, header{
+    background-color: rgb(20, 20, 98);
+    width: 100%;
+    height: auto;
+}
+
+footer, header p {
+    color:aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(233, 238, 244);
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+form {
+    background-color: beige;
+}
+
+li {
+    color:aliceblue;
+    padding: 15px;
+}
+
+ul{ 
+    display:flex;
+    justify-content: space-evenly;
+}
