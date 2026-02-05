@@ -31,9 +31,6 @@ div {
     display: block;
 }
 
-form {
-    background-color: beige;
-}
 
 li {
     color:aliceblue;
@@ -50,5 +47,4 @@ ul{
     grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
     padding: 1.5rem;
-    background-color: oldlace;
 }
