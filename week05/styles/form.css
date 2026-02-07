@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*-----HEADER-----*/
+header {
+    background-color: royalblue;
+}
+h1 {
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+/*-----MAIN-----*/
+main {
+    background-color: rgb(229, 233, 245);
+}
+
+/*-----FIELDSET-----*/
+fieldset {
+    padding: 1.3rem;
+    border: none;
+}
+
+/*-----LABEL-----*/
+label {
+    display: block;
+}
+
+/*-----SELECT-----*/
+select {
+    display:inline-block;
+}
+
+
+
+
+
+

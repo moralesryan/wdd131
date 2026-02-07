@@ -13,51 +13,62 @@
 
 </head>
 <body>
-    <form method="get" action="review.html" class="webform">
-        <fieldset>
-            <label for="product-choice">Product Name</label>
-            <select id="product-choice" name="product" required>
-            <option value="" disabled selected>Select a Product</option>
-            <option value="Macbook Air">Macbook Air</option>
-            <option value="Iphone">Iphone</option>
-            <option value="Ipad">Ipad</option>
-            <option value="Air pods">Air pods</option>
-            <option value="Apple Watch">Apple Watch</option>
-            </select>
-        </fieldset>
-        <fieldset>
-            <legend>Overall Ratings</legend>
-            <div class="stars">
-                <input type="radio" id="fivestar" name="stars" value="5" required><label for=fivestar>5 Stars</label>
-                <input type="radio" id="fourstar" name="stars" value="4" required><label for=fourstar>4 Stars</label>
-                <input type="radio" id="threestar" name="stars" value="3" required><label for=threestar>3 Stars</label>
-                <input type="radio" id="twostar" name="stars" value="2" required><label for=twostar>2 Stars</label>
-                <input type="radio" id="onestar" name="stars" value="1" required><label for=onestar>1 Star</label>
-            </div>
-        </fieldset>
-        <fieldset>
-            <label for="date">Date of Installation</label>
-            <input type="date" id="date" name="installation-date" required>
-        </fieldset>
-        <fieldset>
-            <label>Useful Features</label>
-            <p>(Select all that apply)</p>
-            <input type="checkbox" id="durability" name="durability" value="durability"><label for="durability">Durability</label>
-            <input type="checkbox" id="face-id" name="face-id" value="face-id"><label for="face-id">Face ID</label>
-            <input type="checkbox" id="location" name="location" value="location"><label for="location">Location</label>
-            <input type="checkbox" id="connection" name="connection" value="connection"><label for="connection">Connection</label>  
-        </fieldset>
-        <fieldset>
-            <label for="review">Written Review</label>
-            <textarea id="review" name="review"></textarea>
-        </fieldset>
-        <fieldset>
-            <label for="username">User Name</label>
-            <input type="text" id="username" name="username"><p>(Optional)</p>
-        </fieldset>
-        
-        <input type="submit" value="Submit My Review">
-    </form>
-    
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="webform">
+            <fieldset>
+                <label for="product-choice">Product Name</label>
+                <select id="product-choice" name="product" required>
+                <option value="" disabled selected>Select a Product</option>
+                <option value="Macbook Air">Macbook Air</option>
+                <option value="Iphone">Iphone</option>
+                <option value="Ipad">Ipad</option>
+                <option value="Air pods">Air pods</option>
+                <option value="Apple Watch">Apple Watch</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Overall Ratings</legend>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for=fivestar>5 Stars</label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for=fourstar>4 Stars</label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for=threestar>3 Stars</label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for=twostar>2 Stars</label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for=onestar>1 Star</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="date">Date Purchased</label>
+                <input type="date" id="date" name="purchased-date" required>
+            </fieldset>
+            <fieldset>
+                <label>Useful Features</label>
+                <p>(Select all that apply)</p>
+                <input type="checkbox" id="durability" name="durability" value="durability"><label for="durability">Durability</label>
+                <input type="checkbox" id="face-id" name="face-id" value="face-id"><label for="face-id">Face ID</label>
+                <input type="checkbox" id="location" name="location" value="location"><label for="location">Location</label>
+                <input type="checkbox" id="connection" name="connection" value="connection"><label for="connection">Connection</label>  
+            </fieldset>
+            <fieldset>
+                <label for="review">Written Review</label>
+                <textarea id="review" name="review"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="username">User Name</label>
+                <input type="text" id="username" name="username"><p>(Optional)</p>
+            </fieldset>
+            
+            <input type="submit" value="Submit My Review">
+        </form>
+    </main>
+    <footer>
+         <p>
+           © | Ryan Morales | Costa Rica | <span id="currentyear"></span> 
+        </p>
+        <p id="lastModified">
+        </p>
+    </footer>
 </body>
 </html>
