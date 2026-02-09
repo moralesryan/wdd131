@@ -36,27 +36,20 @@ select {
 }
 
 /*-----.STARS-----*/
-
-.stars {
-    display: inline;
-   
-}
-
 .stars input[type="radio"] + label {
     display: inline;  
 } 
 
 /*-----.WEBFORM-----*/
 .webform input[type="text"],
-.webform input[type="date"],
-.webform select{
+.webform input[type="date"], 
+.webform textarea, select {
    display: block;
    border: solid 1px #999;
-   border-radius: 6px;
    padding: .75rem;
    color: #555;
    width: 100%;
-   max-width: 400px;
+   max-width: 250px;
    background-color: #eee;
    appearance: none;
 }
@@ -90,4 +83,9 @@ footer p {
     padding: .7rem;
 }
 
-
+@media(min-width:600px) {
+    main{
+        display: flex;
+        justify-content: center;
+    }
+}
