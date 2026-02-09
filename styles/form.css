@@ -6,6 +6,7 @@
 /*-----HEADER-----*/
 header {
     background-color: royalblue;
+    border-radius: 6px;
 }
 h1 {
     color: whitesmoke;
@@ -15,6 +16,7 @@ h1 {
 /*-----MAIN-----*/
 main {
     background-color: rgb(229, 233, 245);
+    border-radius: 6px;
 }
 
 /*-----FIELDSET-----*/
@@ -36,24 +38,18 @@ select {
 /*-----.STARS-----*/
 
 .stars {
-    display: flex;
-    flex-direction: column-reverse;
+    display: inline;
+   
 }
 
-/*-----RADIO-----*/
-.stars input[type="radio"] {
-    
-}
+.stars input[type="radio"] + label {
+    display: inline;  
+} 
 
 /*-----.WEBFORM-----*/
-
 .webform input[type="text"],
-.webform input[type="tel"],
-.webform input[type="email"],
-.webform input[type="url"],
 .webform input[type="date"],
-.webform select,
-.webform input[type="number"]{
+.webform select{
    display: block;
    border: solid 1px #999;
    border-radius: 6px;
@@ -65,6 +61,12 @@ select {
    appearance: none;
 }
 
+.webform input[type="checkbox"] + label {
+    display: inline-block;
+    margin: 5px;
+}
+
+
 /*-----SUBMIT-----*/
 .webform input[type=submit]{
     border:none;
@@ -72,11 +74,20 @@ select {
     color:#fff;
     border-radius: 6px;
     padding: .8rem;
-    max-width: 400px;
-    margin-top: -1rem 2% 2rem 2%;
     margin-left: 25px;
-    box-shadow: 1px 1px 4px #999;
+    margin-bottom: 13px;
 }
 
+/*-----FOOTER-----*/
+footer {
+    background-color: royalblue;
+    border-radius: 6px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: .7rem;
+}
 
 
