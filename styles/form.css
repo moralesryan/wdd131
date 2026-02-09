@@ -1,5 +1,5 @@
 * {
-    text-align: center;
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -33,15 +33,50 @@ select {
     display:inline-block;
 }
 
+/*-----.STARS-----*/
+
 .stars {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    text-align: center;
+    flex-direction: column-reverse;
 }
 
+/*-----RADIO-----*/
+.stars input[type="radio"] {
+    
+}
 
+/*-----.WEBFORM-----*/
 
+.webform input[type="text"],
+.webform input[type="tel"],
+.webform input[type="email"],
+.webform input[type="url"],
+.webform input[type="date"],
+.webform select,
+.webform input[type="number"]{
+   display: block;
+   border: solid 1px #999;
+   border-radius: 6px;
+   padding: .75rem;
+   color: #555;
+   width: 100%;
+   max-width: 400px;
+   background-color: #eee;
+   appearance: none;
+}
+
+/*-----SUBMIT-----*/
+.webform input[type=submit]{
+    border:none;
+    background-image: linear-gradient(#af2506, #6f200e);
+    color:#fff;
+    border-radius: 6px;
+    padding: .8rem;
+    max-width: 400px;
+    margin-top: -1rem 2% 2rem 2%;
+    margin-left: 25px;
+    box-shadow: 1px 1px 4px #999;
+}
 
 
 
