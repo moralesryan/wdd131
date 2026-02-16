@@ -8,19 +8,69 @@
     <meta name="description" content="This is the Activities Page for the website. The idea is that people can find information about various activities and events happening at their home ward.">
     <meta name="author" content="Ryan Morales">
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="styles/scripts/scripts.js">defer</script>
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="stylesheet" href="styles/styles-medium.css">
+    <link rel="stylesheet" href="styles/styles-small.css">
+
+    <script src="scripts/scripts.js"defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header>
-
+        <h1>Activities & Events</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>    
+        </nav>
     </header>
     <main>
-
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Upcoming Activities</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th scope="col">Organization</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Activity 1</th>
+                <td>✅</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <th scope="row">Activity 2</th>
+                <td>❌</td>
+                <td>✅</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <th scope="row">Activity 3</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✅</td>
+            </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
-        
+        <p>
+           © | Ryan Morales | Costa Rica | <span id="currentyear"></span> 
+        </p>
+        <p id="lastModified">
+        </p>
     </footer>
 </body>
 </html>

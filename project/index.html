@@ -8,19 +8,84 @@
     <meta name="description" content="This is the home page for the website. The idea is that people feel welcome when they are here.">
     <meta name="author" content="Ryan Morales">
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="styles/scripts/scripts.js">defer</script>
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="stylesheet" href="styles/styles-medium.css">
+    <link rel="stylesheet" href="styles/styles-small.css">
+
+    <script src="scripts/scripts.js"defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
+    <!-- Header content here -->
     <header>
-
+        <h1>Welcome to the Ward Activity Planner!</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>  
+            </ul>    
+        </nav>
     </header>
+    <!-- Main content here -->
     <main>
-
-    </main>
-    <footer>
+        <div class="content">
+            <form>
+                <h2>Activity Details</h2>
+                <fieldset>
+                    <legend>Activity Information</legend>
+                    <label>Activity Name*<input type="text" name="aname" id="aname" required></label>
+                    <label>Description*<input type="text" name="description" id="description" required></label>
+                    <label>Location*<input type="text" name="location" id="location" required></label>  
+                    <label>Date* <input type="date" name="date" id="date" required></label>                  
+                    <legend>Contact Details</legend>
+                    <p>Please reach out to:</p>
+                    <label>Full name*<input type="text" name="fname" id="fname" placeholder="Josh Smith" required></label>
+                    <label>Phone number*<input type="tel" name="phone" id="phone" placeholder="123-456-7890" required></label>
+                    <label>Email address<input type="email" name="email" id="email" placeholder="someone@email.com"></label>
+                </fieldset> 
+                <legend>Name of the Organization</legend>
+                <select name="organization">
+                    <option>Please Select &#9662;</option>
+                    <option value="relief-society">Relief Society</option>
+                    <option value="elders-quorum">Elders Quorum</option>
+                    <option value="primary">Primary</option>
+                    <option value="young-men">Young Men</option>
+                    <option value="young-women">Young Women</option>
+                    <option value="other">Other</option>                                    
+                </select> 
+                <input type="submit" value="Create Activity" class="submit-btn">
+                <aside class="sideblock">
+                    <h2>Upcoming Events</h2>
+                    <ul>
+                        <li>Event 1: Date</li>
+                        <li>Event 2: Date</li>
+                        <li>Event 3: Date</li>
+                    </ul>
+                </aside>
+            </form>    
+            <div class="quote-card">
+            <img src="images/elder-uchtdorf.webp" loading="lazy" alt="Image of Elder Dieter F. Uchtdorf" class="quote-img">
+            <blockquote>
+                <p>“In the Lord’s Church there are no strangers and no outcasts. There are only brothers and sisters.”</p>
+                <footer>- Elder Dieter F. Uchtdorf</footer>
+            </blockquote>
+            </div>  
+        </div>
         
+    </main>
+    <!-- Footer content here -->
+    <footer>
+        <p>
+           © | Ryan Morales | Costa Rica | <span id="currentyear"></span> 
+        </p>
+        <p id="lastModified">
+        </p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Color configuration for header*/
+header{
+    background-color: rgb(20, 20, 98);
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+header p {
+    color:aliceblue;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+/*----------Nav----------*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+ul li {
+    color:rgb(20, 20, 98);
+    padding: 15px;
+    
+}
+
+ul {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+ul li a:hover {
+    background-color:aliceblue;
+    color:rgb(20, 20, 98);
+    padding: 8px;
+    border-radius: 5px;
+}
+/*----------Main----------*/
+main {
+    background-color: rgb(233, 238, 244); 
+    width: 100%;
+}
+
+.content h2 {
+    text-align: center; 
+    color: rgb(20, 20, 98);
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+/*----------Form----------*/
+fieldset {
+    margin: 2rem 0;
+    border: none;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+    border: 1px solid #ddd;
+}
+
+legend {
+    color: rgb(20, 20, 98);
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+select {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: rgb(20, 20, 98);
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*----------Aside----------*/
+.sideblock {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+/*----------Quote-card----------*/
+.quote-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto auto;
+    width: 400px;
+}
+
+/*----------Footer----------*/
+footer {
+    background-color: rgb(20, 20, 98);
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*----------Contact us----------*/
+.contact-section {
+    background-color: rgb(233, 238, 244);
+    padding: 2rem;  
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contact-section form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-section input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: rgb(20, 20, 98);
+}
+
+.contact-section [type="radio"]{
+    margin-right: 0.5rem;
+    accent-color: rgb(20, 20, 98);
+}
+
+.contact-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.contact-section [type="submit"] {
+    background-color: rgb(20, 20, 98);
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}   
+
+.church-building {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.church-building p {
+    color: rgb(20, 20, 98);
+    font-size: 1.1rem;
+}
+
+/*----------Table----------*/
+table {
+    width: 100%;
+    height: 80vh;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(20, 20, 98);
+    color: aliceblue;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+

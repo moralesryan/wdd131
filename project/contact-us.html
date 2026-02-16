@@ -8,19 +8,67 @@
     <meta name="description" content="This is the Contact Us Page for the website. The idea is that people can easily find a way to contact the website administrators if they have any questions or concerns.">
     <meta name="author" content="Ryan Morales">
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="styles/scripts/scripts.js">defer</script>
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="stylesheet" href="styles/styles-medium.css">
+    <link rel="stylesheet" href="styles/styles-small.css">
+
+    <script src="scripts/scripts.js"defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
+        <!-- Header content here -->
     <header>
-
+        <h1>Contact Us!</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>    
+        </nav>
     </header>
     <main>
+        <div class="content">
+            <form> 
+                <section class="contact-section">
+                    <h2>We would love to hear from you!</h2>
+                    <form>
+                        <label for="name">Name</label><input type="text" id="name" name="name">
+                        <label for="email">Email</label><input type="email" id="email" name="email">
+                        <h2>Message Purpose</h2>
+                        <label><input type="radio" name="inquiry" id="general"> General Inquiry</label>
+                        <label><input type="radio" name="inquiry" id="information"> Information Request</label>
+                        <label><input type="radio" name="inquiry" id="suggestion"> Website Suggestion</label>
+                        <label for="message">Message</label><textarea id="message" name="message"></textarea>
+                        <div class="form-info">
+                            <button type="submit">Get in Touch!</button>
+                        </div>
+                    </form>    
+                </section>  
 
+                <section class="church-building">
+                    <h2>Come Worship With Us!</h2>
+                    <img src="https://newsroom.churchofjesuschrist.org/media/960x540/chapel-safety-1.jpeg" loading="lazy" alt="Image of a church building" width="600" class="church-img">
+                    <p>Join us for worship every Sunday at 10 AM!</p>    
+                    <h2>Contact Information</h2>
+                    <p>123 Main Street, Carson</p>
+                    <p>Los Angeles, CA</p>
+                    <p>+1 123 456 7890</p>
+                    <p><a href="mailto:carsonward@churchofjesuschrist.org">carsonward@churchofjesuschrist.org</a></p>
+                </section>
+            </form>    
+        </div>    
     </main>
     <footer>
-        
+        <p>
+           © | Ryan Morales | Costa Rica | <span id="currentyear"></span> 
+        </p>
+        <p id="lastModified">
+        </p>
     </footer>
 </body>
 </html>
