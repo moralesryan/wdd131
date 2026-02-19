@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/styles-medium.css">
     <link rel="stylesheet" href="styles/styles-small.css">
 
-    <script src="scripts/scripts.js"defer></script>
+    <script src="scripts/scripts.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +22,9 @@
 <body>
     <header>
         <h1>Activities & Events</h1>
-        <nav class="menu">
-            <ul>
+        <button id="menuButton">☰</button>
+        <nav>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
@@ -43,25 +44,7 @@
                     <th scope="col">Date</th>
                 </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th scope="row">Activity 1</th>
-                <td>✅</td>
-                <td>✔️</td>
-                <td>✔️</td>
-            </tr>
-            <tr>
-                <th scope="row">Activity 2</th>
-                <td>❌</td>
-                <td>✅</td>
-                <td>✅</td>
-            </tr>
-            <tr>
-                <th scope="row">Activity 3</th>
-                <td>❌</td>
-                <td>❌</td>
-                <td>✅</td>
-            </tr>
+            <tbody id="tableActivities">
             </tbody>
         </table>
     </main>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/styles-medium.css">
     <link rel="stylesheet" href="styles/styles-small.css">
 
-    <script src="scripts/scripts.js"defer></script>
+    <script src="scripts/scripts.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,8 +24,9 @@
     <!-- Header content here -->
     <header>
         <h1>Welcome to the Ward Activity Planner!</h1>
-        <nav class="menu">
-            <ul>
+        <button id="menuButton">☰</button> 
+        <nav>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>  
@@ -60,22 +61,22 @@
                     <option value="other">Other</option>                                    
                 </select> 
                 <input type="submit" value="Create Activity" class="submit-btn">
-                <aside class="sideblock">
-                    <h2>Upcoming Events</h2>
+            </form>    
+            <aside class="quote-card">
+            <img src="images/elder-uchtdorf.webp" loading="lazy" alt="Image of Elder Dieter F. Uchtdorf" class="quote-img">
+            <blockquote>
+                <p>“In the Lord’s Church there are no strangers and no outcasts. There are only brothers and sisters.”</p>
+                <footer>- President Dieter F. Uchtdorf</footer>
+            </blockquote>
+                <h2>Upcoming Events</h2>
+                    <div class="sideblock">
                     <ul>
                         <li>Event 1: Date</li>
                         <li>Event 2: Date</li>
                         <li>Event 3: Date</li>
                     </ul>
-                </aside>
-            </form>    
-            <div class="quote-card">
-            <img src="images/elder-uchtdorf.webp" loading="lazy" alt="Image of Elder Dieter F. Uchtdorf" class="quote-img">
-            <blockquote>
-                <p>“In the Lord’s Church there are no strangers and no outcasts. There are only brothers and sisters.”</p>
-                <footer>- Elder Dieter F. Uchtdorf</footer>
-            </blockquote>
-            </div>  
+                    </div>
+            </aside>  
         </div>
         
     </main>
